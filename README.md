@@ -16,5 +16,5 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 
 | User name | NIA | GitHub Action | Score |
 |-----------|-----|---------------|-------|
-| [p3n4x0](https://github.com/p3n4x0/lab4-websockets/tree/work)   | 774572 | [![Build Status](https://github.com/p3n4x0/lab4-websockets/actions/workflows/CI.yml/badge.svg?branch=work&event=push)](https://github.com/p3n4x0/lab4-websockets/actions/workflows/CI.yml)   |
+| [p3n4x0](https://github.com/p3n4x0/lab4-websockets/tree/work)  | 774572 | [![Build Status](https://github.com/p3n4x0/lab4-websockets/actions/workflows/CI.yml/badge.svg?branch=work&event=push)](https://github.com/p3n4x0/lab4-websockets/actions/workflows/CI.yml)   |
 
