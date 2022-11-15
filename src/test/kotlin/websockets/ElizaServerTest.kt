@@ -46,7 +46,7 @@ class ElizaServerTest {
         container.connectToServer(client, URI("ws://localhost:$port/eliza"))
         latch.await()
         assertTrue(list.size > 3)
-        assertEquals("Do you want coffee?", list[3])
+        assertEquals("Please don't apologize.", list[3])
     }
 }
 
@@ -67,7 +67,7 @@ class ElizaOnOpenMessageHandlerToComplete(private val list: MutableList<String>,
         list.add(message)
         latch.countDown()
         if (list.size == 3) {
-            session.basicRemote.sendText("sure")
+            session.basicRemote.sendText("sorry")
         }
     }
 }
